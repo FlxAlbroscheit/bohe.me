@@ -1,0 +1,482 @@
+/* ORANGE-SCALE */
+/* main_orange! */
+/* GREY-SCALE */
+/* lighter, was before: #c2c1c1 */
+/* darker */
+/* user-name */
+/* entry-ownerS */
+/* grey */
+/* Logo_left & Search_bar_right: Opacity 0.15; rgba(255,255,255,0.15) */
+/* PAGE-NAV */
+/* .stream-entry */
+/* PP */
+/* line 3, ../sass/stream.scss */
+.markItUpHeader {
+  background-color: #b8b9b9;
+}
+
+/* line 7, ../sass/stream.scss */
+.comments-count {
+  color: #bfbfbf;
+  font-size: 0.75em;
+  padding-left: 67px;
+}
+
+/* line 13, ../sass/stream.scss */
+.comments {
+  height: 1px;
+  overflow: hidden;
+}
+/* line 17, ../sass/stream.scss */
+.comments.active {
+  overflow: auto;
+  height: auto;
+}
+/* line 22, ../sass/stream.scss */
+.comments .write-comment {
+  margin-bottom: -1px;
+}
+/* line 25, ../sass/stream.scss */
+.comments .write-comment form textarea {
+  position: relative;
+  height: 35px;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #f1efef;
+  transition: height 0.2s;
+  resize: none !important;
+}
+/* line 36, ../sass/stream.scss */
+.comments .comment {
+  padding: 6px 7px;
+  border-bottom: 1px solid #f1efef;
+}
+/* line 40, ../sass/stream.scss */
+.comments .comment .comment {
+  margin-left: 32px !important;
+}
+/* line 45, ../sass/stream.scss */
+.comments .comment.myComment {
+  border-left: 1px solid #ff7531;
+  margin-left: 0 !important;
+  padding-left: 14px;
+}
+/* line 51, ../sass/stream.scss */
+.comments .comment.show-more-comments {
+  padding-top: 0;
+}
+/* line 54, ../sass/stream.scss */
+.comments .comment.show-more-comments .comment-content {
+  padding: 0;
+  transition: opacity 0.2s;
+  opacity: 0.5;
+  text-align: center;
+}
+/* line 61, ../sass/stream.scss */
+.comments .comment.show-more-comments:hover .comment-content {
+  opacity: 1;
+}
+/* line 66, ../sass/stream.scss */
+.comments .comment .feedback span {
+  font-size: 0.85em !important;
+  margin-top: 5px;
+}
+/* line 71, ../sass/stream.scss */
+.comments .comment .author-pic {
+  border-radius: 14px;
+  width: 31px;
+  padding: 1px;
+  float: left;
+  margin-right: 10px;
+}
+/* line 79, ../sass/stream.scss */
+.comments .comment .author-name a {
+  color: #807f7f;
+  font-size: 0.85em;
+}
+/* line 84, ../sass/stream.scss */
+.comments .comment .comment-content {
+  font-size: 0.7em;
+  padding-top: 5px;
+  color: #4d4d4d;
+  line-height: 1.5em;
+  padding-left: 39px;
+}
+/* line 92, ../sass/stream.scss */
+.comments .comment:last-child {
+  border-bottom: none;
+}
+
+/* line 99, ../sass/stream.scss */
+.boheme {
+  /* .entry-details:after {
+  height: 20px;
+  width: 50px;
+  border-radius: 0 0 12px 12px;
+  position: absolute;
+  opacity: 0.4;
+  margin-left: -30px;
+  margin-top: 8px;
+  background-color: $orange2;
+  content: "";
+  } */
+}
+/* line 101, ../sass/stream.scss */
+.boheme.stream-entry {
+  background: #fff;
+  margin-right: 20px;
+  margin-top: 28px;
+  margin-bottom: 20px;
+  width: 290px;
+  float: left;
+  opacity: 0;
+}
+/* line 111, ../sass/stream.scss */
+.boheme .options, .boheme .entry-content, .boheme .comments .comment {
+  margin: 10px 7px 3px 7px;
+}
+/* line 115, ../sass/stream.scss */
+.boheme a {
+  color: #4d4d4d;
+}
+/* line 118, ../sass/stream.scss */
+.boheme a:hover {
+  text-decoration: underline;
+}
+/* line 123, ../sass/stream.scss */
+.boheme .bx-pager {
+  z-index: 88888;
+  text-align: center;
+  margin-top: -30px;
+  margin-left: 10px;
+}
+/* line 130, ../sass/stream.scss */
+.boheme.shared .entry-content {
+  border-top: 1px solid #f1efef;
+  border-bottom: 1px solid #f1efef;
+  padding: 8px 0 4px;
+  margin-bottom: 12px;
+}
+/* line 137, ../sass/stream.scss */
+.boheme h3 {
+  font-size: 0.79em;
+  font-weight: 100;
+  text-transform: uppercase;
+  padding: 3px 0 6px 0;
+}
+/* line 144, ../sass/stream.scss */
+.boheme .options {
+  color: #4d4d4d;
+  font-size: 0.75em;
+  font-weight: 100;
+}
+/* line 149, ../sass/stream.scss */
+.boheme .options .shared-post {
+  float: left;
+  max-width: 150px;
+  padding-bottom: 10px;
+  line-height: 1.15em;
+}
+/* line 155, ../sass/stream.scss */
+.boheme .options .shared-post a {
+  padding-left: 15px;
+  font-weight: 400;
+}
+/* line 159, ../sass/stream.scss */
+.boheme .options .shared-post a:hover {
+  text-decoration: unerline;
+}
+/* line 165, ../sass/stream.scss */
+.boheme .options .meta {
+  float: right;
+  text-align: right;
+}
+/* line 169, ../sass/stream.scss */
+.boheme .options .meta .entry-owner {
+  border: 2px solid #b8b9b9;
+  border-radius: 4px;
+  width: 7px;
+  height: 7px;
+  float: right;
+  margin-left: 6px;
+  margin-top: 2px;
+}
+/* line 181, ../sass/stream.scss */
+.boheme .entry-content {
+  color: #4d4d4d;
+  line-height: 1.45em;
+  clear: both;
+  font-size: 1em;
+  margin-top: 35px;
+}
+/* line 188, ../sass/stream.scss */
+.boheme .entry-content:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* line 194, ../sass/stream.scss */
+.boheme .entry-content img {
+  max-width: 100%;
+}
+/* line 198, ../sass/stream.scss */
+.boheme .entry-content p {
+  padding: 4px 1px 10px;
+  line-height: 1.4em;
+  font-weight: 100;
+}
+/* line 204, ../sass/stream.scss */
+.boheme .entry-content ul.tags li {
+  float: left;
+  padding-right: 4px;
+}
+/* line 208, ../sass/stream.scss */
+.boheme .entry-content ul.tags li a {
+  color: #28dde1;
+  font-style: italic;
+  font-size: 0.9em;
+}
+/* line 215, ../sass/stream.scss */
+.boheme .entry-content .preview {
+  /* background: $page-bg; */
+  padding: 8px;
+  overflow: hidden;
+  /* .preview-image {
+   position: absolute;
+   opacity: 0.3;
+   -webkit-filter: blur(4px);
+   margin: -5px;
+  } */
+}
+/* line 227, ../sass/stream.scss */
+.boheme .entry-content .preview .preview-link {
+  font-weight: 400;
+}
+/* line 232, ../sass/stream.scss */
+.boheme .entry-content .preview p {
+  font-size: 0.8em;
+  line-height: 1.4em;
+  font-weight: 300;
+}
+/* line 237, ../sass/stream.scss */
+.boheme .entry-content .preview p.preview-title {
+  font-size: 0.95em;
+  font-style: normal;
+}
+/* line 244, ../sass/stream.scss */
+.boheme .entry-content .attachement {
+  margin: 4px -7px 5px;
+  border-top: 1px solid #f1efef;
+  border-bottom: 1px solid #f1efef;
+}
+/* line 250, ../sass/stream.scss */
+.boheme .entry-content .attachement.gallery {
+  margin-right: -7px !important;
+  margin-left: -7px !important;
+}
+/* line 255, ../sass/stream.scss */
+.boheme .entry-content .attachement:hover:after {
+  opacity: 0.2;
+}
+/* line 259, ../sass/stream.scss */
+.boheme .entry-content .attachement img {
+  width: 100%;
+}
+/* line 263, ../sass/stream.scss */
+.boheme .entry-content .attachement .attachement-options {
+  position: absolute;
+  z-index: 1;
+  margin-top: 5px;
+  margin-left: 265px;
+  background-color: rgba(184, 185, 185, 0.65);
+  padding: 3px;
+}
+/* line 271, ../sass/stream.scss */
+.boheme .entry-content .attachement .attachement-options img {
+  float: right;
+  cursor: pointer;
+  width: 13px;
+  transition: width 0.25s;
+}
+/* line 278, ../sass/stream.scss */
+.boheme .entry-content .attachement .attachement-options:hover img {
+  width: 15px;
+}
+/* line 285, ../sass/stream.scss */
+.boheme .entry-details {
+  height: 40px;
+  margin-top: 6px;
+  position: relative;
+}
+/* line 290, ../sass/stream.scss */
+.boheme .entry-details:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* line 296, ../sass/stream.scss */
+.boheme .entry-details .author-pic, .boheme .entry-details .group-pic {
+  float: left;
+  position: absolute;
+  margin-left: 5px;
+  margin-top: -2px;
+  width: 50px;
+  border-radius: 27px;
+  border: 2px solid white;
+  transition: all 0.25s;
+}
+/* line 306, ../sass/stream.scss */
+.boheme .entry-details .author-pic:hover, .boheme .entry-details .group-pic:hover {
+  box-shadow: 0px 0px 0px 1px #b8b9b9;
+}
+/* line 311, ../sass/stream.scss */
+.boheme .entry-details .group-pic {
+  width: 28px;
+  margin: -4px 32px;
+  opacity: 0.85;
+  border: 1px solid white;
+}
+/* line 317, ../sass/stream.scss */
+.boheme .entry-details .group-pic:hover {
+  opacity: 1;
+}
+/* line 322, ../sass/stream.scss */
+.boheme .entry-details .author-name {
+  color: #807f7f;
+  padding-left: 65px;
+}
+/* line 328, ../sass/stream.scss */
+.boheme .feedback {
+  margin-right: 5px;
+  margin-top: -10px;
+  font-size: 1.45em;
+  float: right;
+}
+/* line 334, ../sass/stream.scss */
+.boheme .feedback span {
+  float: left;
+  cursor: pointer;
+  padding-left: 5px;
+  margin-right: 5px;
+  border-left: 1px solid #f1efef;
+  color: #807f7f;
+  opacity: 0.7;
+  transition: all 0.3s;
+}
+/* line 345, ../sass/stream.scss */
+.boheme .feedback span:hover {
+  margin-top: -2px;
+}
+/* line 349, ../sass/stream.scss */
+.boheme .feedback span:hover, .boheme .feedback span.active {
+  opacity: 1;
+}
+/* line 353, ../sass/stream.scss */
+.boheme .feedback span:first-child {
+  border-left: none;
+}
+/* line 357, ../sass/stream.scss */
+.boheme .feedback .heart.active, .boheme .feedback .share.active, .boheme .feedback .mark.active {
+  color: #000;
+}
+/* line 361, ../sass/stream.scss */
+.boheme .feedback .heart:after {
+  content: attr(data-hearts);
+  color: #807f7f;
+  font-size: 0.45em;
+  margin: 6px 0 0 -13px;
+  position: absolute;
+}
+/* line 369, ../sass/stream.scss */
+.boheme .feedback .heart.active:after {
+  font-weight: bold;
+}
+
+/* line 387, ../sass/stream.scss */
+#stream-settings {
+  width: 160px;
+  margin: 44px 0 0 -58px;
+  text-align: center;
+}
+/* line 392, ../sass/stream.scss */
+#stream-settings:before {
+  margin-left: 68px;
+}
+/* line 396, ../sass/stream.scss */
+#stream-settings .multi-button {
+  margin-top: -6px;
+  padding-bottom: 6px;
+  padding-left: 25px;
+}
+/* line 401, ../sass/stream.scss */
+#stream-settings .multi-button li:hover {
+  background: none !important;
+}
+/* line 406, ../sass/stream.scss */
+#stream-settings ul li {
+  line-height: 1.35em;
+  font-size: 1em;
+}
+/* line 411, ../sass/stream.scss */
+#stream-settings ul.select-network .active, #stream-settings ul.select-group .active {
+  font-weight: bold;
+}
+
+/* POST STYLE'S: UNKNOWN (GREY COLOR - default), .OWN-POST, .IS-FRIEND */
+/* line 420, ../sass/stream.scss */
+.stream-entry.own-post .entry-owner {
+  border-color: #28dde1 !important;
+}
+/* line 424, ../sass/stream.scss */
+.stream-entry.own-post .comments-count strong {
+  color: #28dde1 !important;
+}
+/* line 428, ../sass/stream.scss */
+.stream-entry.own-post .attachement-options {
+  background-color: rgba(40, 221, 225, 0.65) !important;
+}
+/* line 432, ../sass/stream.scss */
+.stream-entry.own-post .markItUpHeader {
+  background-color: #28dde1 !important;
+}
+/* line 436, ../sass/stream.scss */
+.stream-entry.own-post .author-pic:hover, .stream-entry.own-post .group-pic:hover {
+  box-shadow: 0px 0px 0px 1px #28dde1 !important;
+}
+/* line 440, ../sass/stream.scss */
+.stream-entry.own-post .heart.active, .stream-entry.own-post .share.active, .stream-entry.own-post .mark.active {
+  color: #28dde1 !important;
+}
+/* line 444, ../sass/stream.scss */
+.stream-entry.own-post a.preview-link {
+  color: #28dde1 !important;
+}
+
+/* line 451, ../sass/stream.scss */
+.stream-entry.is-friend .entry-owner {
+  border-color: #e9a4f2 !important;
+}
+/* line 455, ../sass/stream.scss */
+.stream-entry.is-friend .comments-count strong {
+  color: #e9a4f2 !important;
+}
+/* line 459, ../sass/stream.scss */
+.stream-entry.is-friend .attachement-options {
+  background-color: rgba(233, 164, 242, 0.65) !important;
+}
+/* line 463, ../sass/stream.scss */
+.stream-entry.is-friend .markItUpHeader {
+  background-color: #e9a4f2 !important;
+}
+/* line 467, ../sass/stream.scss */
+.stream-entry.is-friend .author-pic:hover, .stream-entry.is-friend .group-pic:hover {
+  box-shadow: 0px 0px 0px 1px #e9a4f2 !important;
+}
+/* line 471, ../sass/stream.scss */
+.stream-entry.is-friend .heart.active, .stream-entry.is-friend .share.active, .stream-entry.is-friend .mark.active {
+  color: #e9a4f2 !important;
+}
+/* line 475, ../sass/stream.scss */
+.stream-entry.is-friend a.preview-link {
+  color: #e9a4f2 !important;
+}

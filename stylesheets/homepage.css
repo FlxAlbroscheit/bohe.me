@@ -1,0 +1,195 @@
+/* ORANGE-SCALE */
+/* main_orange! */
+/* GREY-SCALE */
+/* lighter, was before: #c2c1c1 */
+/* darker */
+/* user-name */
+/* entry-ownerS */
+/* grey */
+/* Logo_left & Search_bar_right: Opacity 0.15; rgba(255,255,255,0.15) */
+/* PAGE-NAV */
+/* .stream-entry */
+/* PP */
+/* line 3, ../sass/homepage.scss */
+#header {
+  background: linear-gradient(to right, #00c9e1, #5bf5e1 50%, #22d4bd);
+  height: 450px;
+  overflow: hidden;
+}
+
+/* line 8, ../sass/homepage.scss */
+#particles {
+  height: 100%;
+}
+
+/* line 11, ../sass/homepage.scss */
+#action-nav {
+  background: rgba(255, 255, 255, 0.18);
+  height: 50px;
+}
+/* line 15, ../sass/homepage.scss */
+#action-nav #logo {
+  width: 36px;
+  padding-top: 7px;
+  position: absolute;
+  left: 48%;
+}
+/* line 21, ../sass/homepage.scss */
+#action-nav #search {
+  background: none !important;
+}
+
+/* line 26, ../sass/homepage.scss */
+#headline {
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 40px;
+  text-align: center;
+  position: relative;
+  margin-top: -390px;
+  animation: hello 0.6s;
+}
+/* line 35, ../sass/homepage.scss */
+#headline h2 {
+  color: #fff;
+  font-weight: 100;
+  font-size: 1.7em;
+  line-height: 1.25em;
+}
+/* line 42, ../sass/homepage.scss */
+#headline h3 {
+  color: #23566c;
+  padding-top: 18px;
+  font-weight: 100;
+}
+/* line 48, ../sass/homepage.scss */
+#headline a {
+  color: #23566c;
+  border-bottom: 1px dotted #23566c;
+}
+/* line 53, ../sass/homepage.scss */
+#headline .divider {
+  height: 3px;
+  width: 100px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+/* line 62, ../sass/homepage.scss */
+#loginbar {
+  background: #fff;
+  width: 450px;
+  margin: 0 auto;
+  position: relative;
+  padding: 13px;
+  height: 190px;
+  margin-top: -100px;
+  border-bottom: 1px solid #f1efef;
+}
+/* line 72, ../sass/homepage.scss */
+#loginbar:before {
+  width: 162px;
+  height: 8px;
+  background: url(../img/homepage_loginbar_before.png) no-repeat;
+  content: '';
+  position: relative;
+  margin-top: -21px;
+  margin-left: -5px;
+  float: left;
+}
+/* line 85, ../sass/homepage.scss */
+#loginbar form #username, #loginbar form #password {
+  padding: 14px;
+  margin-top: 1px;
+  width: 260px;
+  font-size: 0.9em;
+}
+/* line 92, ../sass/homepage.scss */
+#loginbar form label {
+  color: #807f7f;
+  max-width: 150px;
+}
+/* line 96, ../sass/homepage.scss */
+#loginbar form .checkbox:before {
+  content: '';
+  height: 25px;
+  width: 25px;
+  position: relative;
+  background: red;
+}
+/* line 103, ../sass/homepage.scss */
+#loginbar form .checkbox:checked {
+  background: red;
+  height: 20px;
+  width: 20px;
+}
+/* line 108, ../sass/homepage.scss */
+#loginbar form .checkbox:checked:before {
+  background: green;
+}
+/* line 113, ../sass/homepage.scss */
+#loginbar ul {
+  list-style: none;
+  margin-top: -35px;
+  padding-bottom: 7px;
+}
+/* line 118, ../sass/homepage.scss */
+#loginbar ul li {
+  float: left;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+/* line 123, ../sass/homepage.scss */
+#loginbar ul li:hover {
+  opacity: 1;
+}
+/* line 128, ../sass/homepage.scss */
+#loginbar ul img {
+  width: 30px;
+}
+/* line 133, ../sass/homepage.scss */
+#loginbar #loginbutton, #loginbar #registerbutton {
+  float: left;
+  margin-top: 25px;
+  text-transform: uppercase;
+  height: 45px;
+  padding: 14px 63px 7px;
+  font-size: 0.95em;
+}
+
+/* line 144, ../sass/homepage.scss */
+#footer {
+  margin-top: 30px;
+  text-align: center;
+}
+/* line 148, ../sass/homepage.scss */
+#footer p, #footer a {
+  color: #bfbfbf;
+}
+
+@keyframes hello {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.5, 0.5, 1);
+    transform: scale3d(0.5, 0.5, 1);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@media (max-width: 700px) {
+  /* line 167, ../sass/homepage.scss */
+  #headline, #loginbar {
+    width: 90%;
+  }
+
+  /* line 170, ../sass/homepage.scss */
+  #headline {
+    margin-top: -440px;
+    font-size: 0.8em;
+  }
+}

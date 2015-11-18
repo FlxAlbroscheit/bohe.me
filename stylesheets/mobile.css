@@ -1,0 +1,139 @@
+/* ORANGE-SCALE */
+/* main_orange! */
+/* GREY-SCALE */
+/* lighter, was before: #c2c1c1 */
+/* darker */
+/* user-name */
+/* entry-ownerS */
+/* grey */
+/* Logo_left & Search_bar_right: Opacity 0.15; rgba(255,255,255,0.15) */
+/* PAGE-NAV */
+/* .stream-entry */
+/* PP */
+@media (max-width: 700px) {
+  /* GOOD VALUE??? */
+  /* line 5, ../sass/mobile.scss */
+  .popup {
+    left: 10px;
+    width: 95% !important;
+    margin-left: 0 !important;
+  }
+  /* line 10, ../sass/mobile.scss */
+  .popup:before {
+    display: none;
+  }
+
+  /* line 15, ../sass/mobile.scss */
+  #alert {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    padding: 9px;
+    padding-top: 15px;
+    font-size: 0.8em;
+    left: 0;
+    border-radius: 0;
+  }
+  /* line 25, ../sass/mobile.scss */
+  #alert .bx-wrapper .bx-pager.bx-default-pager a {
+    width: 8px;
+    height: 8px;
+  }
+  /* line 29, ../sass/mobile.scss */
+  #alert .close-slider {
+    font-size: 1.4em;
+    margin-top: -17px;
+  }
+
+  /* line 35, ../sass/mobile.scss */
+  .lightbox-header, .lightbox-content, .lightbox-footer {
+    width: 88% !important;
+  }
+
+  /* line 39, ../sass/mobile.scss */
+  .lightbox-header span {
+    display: none;
+  }
+
+  /* line 45, ../sass/mobile.scss */
+  #action-nav #home {
+    width: 65px;
+  }
+  /* line 49, ../sass/mobile.scss */
+  #action-nav #action-nav-left {
+    margin-left: 85px;
+  }
+  /* line 53, ../sass/mobile.scss */
+  #action-nav #action-nav-right .popup-link {
+    display: none;
+  }
+  /* line 57, ../sass/mobile.scss */
+  #action-nav #action-nav-right input[type=text] {
+    display: block !important;
+  }
+
+  /* line 64, ../sass/mobile.scss */
+  #page-nav nav {
+    padding-left: 15px;
+  }
+  /* line 67, ../sass/mobile.scss */
+  #page-nav nav .pagetitle {
+    cursor: pointer;
+  }
+  /* line 70, ../sass/mobile.scss */
+  #page-nav nav .pagetitle:after {
+    content: '\f3d0' !important;
+    border-radius: 20px;
+    color: #ff7531 !important;
+    border: 1px solid #ff7531;
+    font-size: 0.7em !important;
+    margin-top: 3px !important;
+  }
+  /* line 79, ../sass/mobile.scss */
+  #page-nav nav .pagetitle.menu-open:after {
+    content: '\f3d8' !important;
+  }
+  /* line 84, ../sass/mobile.scss */
+  #page-nav nav #page-categories {
+    display: none;
+    width: 100%;
+    position: absolute;
+    z-index: 22;
+    margin-top: 57px;
+    left: 0;
+    background: #fff;
+  }
+  /* line 93, ../sass/mobile.scss */
+  #page-nav nav #page-categories li {
+    float: none;
+    text-align: center;
+    border-left: none;
+    border-bottom: 1px solid #f1efef;
+  }
+  /* line 99, ../sass/mobile.scss */
+  #page-nav nav #page-categories li a {
+    font-size: 1em;
+    padding: 0;
+  }
+
+  /* line 108, ../sass/mobile.scss */
+  #pp {
+    width: 65px;
+  }
+
+  /* line 112, ../sass/mobile.scss */
+  #content {
+    margin-left: 84px;
+  }
+  /* line 115, ../sass/mobile.scss */
+  #content .stream-entry {
+    width: 94%;
+    margin-right: 6px;
+    padding-top: 2px;
+    float: none;
+  }
+  /* line 121, ../sass/mobile.scss */
+  #content .stream-entry .feedback span {
+    opacity: 1;
+  }
+}

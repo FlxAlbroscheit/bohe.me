@@ -1,0 +1,98 @@
+/* ORANGE-SCALE */
+/* main_orange! */
+/* GREY-SCALE */
+/* lighter, was before: #c2c1c1 */
+/* darker */
+/* user-name */
+/* entry-ownerS */
+/* grey */
+/* Logo_left & Search_bar_right: Opacity 0.15; rgba(255,255,255,0.15) */
+/* PAGE-NAV */
+/* .stream-entry */
+/* PP */
+/* line 3, ../sass/messages.scss */
+.message-content {
+  padding-left: 67px;
+  padding-top: 32px;
+  font-size: 0.9em;
+}
+
+/* line 9, ../sass/messages.scss */
+#mymails {
+  width: 30%;
+  float: left;
+  border-right: 1px solid #f1efef;
+}
+/* line 14, ../sass/messages.scss */
+#mymails .message-preview {
+  border-bottom: 1px solid #f1efef;
+  padding: 9px;
+  transition: background-color 0.25s;
+}
+/* line 20, ../sass/messages.scss */
+#mymails .message-preview:hover {
+  background-color: #fff;
+}
+/* line 24, ../sass/messages.scss */
+#mymails .message-preview.new-message {
+  border-right: 1px solid #ff7531;
+}
+/* line 28, ../sass/messages.scss */
+#mymails .message-preview .options {
+  float: right;
+}
+/* line 32, ../sass/messages.scss */
+#mymails .message-preview .entry-content {
+  margin-top: 5px;
+}
+/* line 36, ../sass/messages.scss */
+#mymails .message-preview .entry-details {
+  height: 22px;
+  float: left;
+}
+
+/* line 43, ../sass/messages.scss */
+#thethread {
+  width: 70%;
+  min-height: 100%;
+  height: 100%;
+  float: right;
+  background-color: #fff;
+}
+/* line 50, ../sass/messages.scss */
+#thethread:after {
+  display: block;
+  clear: both;
+  position: relative;
+}
+/* line 56, ../sass/messages.scss */
+#thethread .entry-content {
+  border-bottom: 1px solid #f1efef;
+  margin-top: 5px;
+}
+/* line 61, ../sass/messages.scss */
+#thethread .threads {
+  padding: 11px;
+}
+/* line 64, ../sass/messages.scss */
+#thethread .threads li {
+  min-height: 52px;
+  margin-top: 8px;
+  border-bottom: 1px solid #f1efef;
+}
+/* line 69, ../sass/messages.scss */
+#thethread .threads li .message-content {
+  padding-top: 0;
+}
+/* line 75, ../sass/messages.scss */
+#thethread .comments, #thethread .writers-toolbar {
+  display: block;
+}
+
+@media only screen and (max-width: 40em) {
+  /* line 81, ../sass/messages.scss */
+  #mymails, #thethread {
+    width: 100%;
+    float: none;
+  }
+}
